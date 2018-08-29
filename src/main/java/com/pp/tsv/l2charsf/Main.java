@@ -39,6 +39,7 @@ public class Main {
                 Longest2CharSubstringFinder finder = new Longest2CharSubstringFinder();
                 for (Iterator<String> ei = strings.iterator(); ei.hasNext(); ) {
                     finder.evaluate(ei.next());
+                    break;
                 }
                 String result = finder.buildResult();
                 System.out.println(
